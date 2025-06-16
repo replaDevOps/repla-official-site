@@ -1,0 +1,32 @@
+.contact-card {
+    /* background: linear-gradient(135deg, #f5f7fa, #c3cfe2);  */
+    border-radius: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 1rem;
+    overflow: hidden;
+    position: relative; 
+    background: var(--secondary);
+}
+
+.contact-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 105%;
+    height: 100%;
+    background: var(--secondary);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.contact-badge{
+    width: 60px;
+    height: 60px;
+    background-color: var(--brand) !important;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

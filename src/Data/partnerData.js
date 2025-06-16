@@ -1,0 +1,26 @@
+export const partnerData = [
+    {
+        img:'brand-1.png'
+    },
+    {
+        img:'brand-2.png'
+    },
+    {
+        img:'brand-3.png'
+    },
+    {
+        img:'brand-4.png'
+    },
+    {
+        img:'brand-5.png'
+    },
+    {
+        img:'brand-6.png'
+    },
+    {
+        img:'brand-7.png'
+    },
+    {
+        img:'brand-5.png'
+    },
+]

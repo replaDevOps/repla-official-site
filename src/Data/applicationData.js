@@ -1,0 +1,26 @@
+export const applicationData = [
+    {
+        video:'app-1.mp4'
+    },
+    {
+        video:'app-2.mp4'
+    },
+    {
+        video:'app-3.mp4'
+    },
+    {
+        video:'app-4.mp4'
+    },
+    {
+        video:'app-5.mp4'
+    },
+    {
+        video:'app-6.mp4'
+    },
+    {
+        video:'app-7.mp4'
+    },
+    {
+        video:'app-8.mp4'
+    },
+]
