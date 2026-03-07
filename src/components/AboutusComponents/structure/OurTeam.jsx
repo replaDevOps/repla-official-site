@@ -1,7 +1,7 @@
-import React from 'react';
-import { Card, Col, Flex, Image, Row, Typography } from 'antd';
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { Card, Col, Flex, Image, Row, Typography } from "antd";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const { Title, Text } = Typography;
 
@@ -9,14 +9,18 @@ const OurTeam = () => {
   const { t } = useTranslation();
 
   const data = [
-    { img: 'team-m-1.jpg', title: t('Tyler Sipel'), subtitle: t('President') },
-    { img: 'team-m-2.jpg', title: t('Mohammed Alwehaibi'), subtitle: t('Vice President') },
-    { img: 'team-f-1.jpg', title: t('Maribel Siple'), subtitle: t('Sales Head') },
-    { img: 'team-m-3.jpg', title: t('Aamal (Sam)'), subtitle: t('Operational Manager') },
-    { img: 'team-m-4.jpg', title: t('Abdul Hanan'), subtitle: t('CTO & Full Stack Engineer') },
-    { img: 'team-m-5.jpg', title: t('Abdul Ahad'), subtitle: t('MERN Stack Engineer') },
-    { img: 'team-m-6.jpg', title: t('Uzair Afzal'), subtitle: t('Sales Executive') },
-    { img: 'team-m-7.jpg', title: t('Hammad Ahmed'), subtitle: t('Business Developer') },
+    { img: "team-m-1.jpg", title: t("Tyler Sipel"), subtitle: t("President") },
+    {
+      img: "team-f-1.jpg",
+      title: t("Maribel Siple"),
+      subtitle: t("Sales Head"),
+    },
+    // { img: 'team-m-2.jpg', title: t('Mohammed Alwehaibi'), subtitle: t('Vice President') },
+    // { img: 'team-m-3.jpg', title: t('Aamal (Sam)'), subtitle: t('Operational Manager') },
+    // { img: 'team-m-4.jpg', title: t('Abdul Hanan'), subtitle: t('CTO & Full Stack Engineer') },
+    // { img: 'team-m-5.jpg', title: t('Abdul Ahad'), subtitle: t('MERN Stack Engineer') },
+    // { img: 'team-m-6.jpg', title: t('Uzair Afzal'), subtitle: t('Sales Executive') },
+    // { img: 'team-m-7.jpg', title: t('Hammad Ahmed'), subtitle: t('Business Developer') },
   ];
 
   const cardVariants = {
@@ -27,20 +31,22 @@ const OurTeam = () => {
       transition: {
         delay: i * 0.1,
         duration: 0.6,
-        ease: 'easeOut',
+        ease: "easeOut",
       },
     }),
   };
 
   return (
-    <div className="pad-common intro" style={{  padding: '60px 0' }}>
+    <div className="pad-common intro" style={{ padding: "60px 0" }}>
       <div className="container">
         <Row gutter={[24, 44]} align="middle">
           <Col lg={12} md={24}>
             <Flex vertical gap={15}>
-              <Text className="text-brand para-font fs-18">{t('Our team')}</Text>
+              <Text className="text-brand para-font fs-18">
+                {t("Our team")}
+              </Text>
               <Title level={1} className="head-font fw-700 text-white m-0">
-                {t('Team of Experienced Professionals')}
+                {t("Team of Experienced Professionals")}
               </Title>
             </Flex>
           </Col>
@@ -60,12 +66,12 @@ const OurTeam = () => {
                   hoverable
                   className="team-card"
                   style={{
-                    background: '#1a1d22',
+                    background: "#1a1d22",
                     borderRadius: 16,
-                    border: '1px solid #2b2e34',
+                    border: "1px solid #2b2e34",
                     padding: 12,
-                    textAlign: 'center',
-                    transition: '0.3s ease-in-out',
+                    textAlign: "center",
+                    transition: "0.3s ease-in-out",
                   }}
                 >
                   <Image
@@ -75,10 +81,10 @@ const OurTeam = () => {
                     preview={false}
                     style={{ borderRadius: 12, marginBottom: 16 }}
                   />
-                  <Title level={5} style={{ color: '#fff', margin: 0 }}>
+                  <Title level={5} style={{ color: "#fff", margin: 0 }}>
                     {member.title}
                   </Title>
-                  <Text style={{ color: '#aaa' }}>{member.subtitle}</Text>
+                  <Text style={{ color: "#aaa" }}>{member.subtitle}</Text>
                 </Card>
               </motion.div>
             </Col>
