@@ -1,6 +1,0 @@
-export * from './Home'
-export * from './Services'
-export * from './Aboutus'
-export * from './Contactus'
-export * from './PrivacyPolicy'
-export * from './TermConditions'
