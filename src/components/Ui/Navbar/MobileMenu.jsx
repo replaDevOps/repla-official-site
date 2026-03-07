@@ -42,7 +42,7 @@ const MobileMenu = ({ visible, onClose }) => {
               </Link>
             </li>
             <li>
-              <Link to="/about" onClick={onClose}>
+              <Link to="/aboutus" onClick={onClose}>
                 ABOUT US
               </Link>
             </li>
