@@ -1,0 +1,5 @@
+export * from './Ourservices'
+export * from './Mainsection'
+export * from './SingleViewService'
+export * from './Faq'
+export * from './Faqsider'
