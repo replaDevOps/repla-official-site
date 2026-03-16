@@ -15,7 +15,7 @@ const Aboutus = () => {
       <Breadcrumb
         title={t("About Us")}
         pageName={t("About Us")}
-        breadcrumb={[{ to: "/", name: t("REPLA Technologies Pvt Ltd") }]}
+        breadcrumb={[{ to: null, name: t("REPLA Technologies Inc.") }]}
       />
       <Whoweare />
       <OurCoreValue />

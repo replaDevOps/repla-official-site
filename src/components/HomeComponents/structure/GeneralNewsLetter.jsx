@@ -1,6 +1,6 @@
-import React from 'react';
-import { Button, Col, Flex, Row, Typography } from 'antd';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { Button, Col, Flex, Row, Typography } from "antd";
+import { useTranslation } from "react-i18next";
 
 const { Title } = Typography;
 
@@ -19,9 +19,13 @@ const GeneralNewsLetter = () => {
                     {t("Let’s develop something innovative together")}
                   </Title>
                   <Flex justify="center">
-                    <Button type="primary" className="metaverse-btn">
+                    <Button
+                      type="primary"
+                      className="metaverse-btn"
+                      onClick={() => navigate("/contactus")}
+                    >
                       <span className="metaverse-btn-text">
-                        {t("Let's connect with us")}
+                        {t("Connect With Us")}
                       </span>
                       <span className="metaverse-btn-glow"></span>
                     </Button>

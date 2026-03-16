@@ -46,8 +46,10 @@ const Navbar = () => {
 
   const languageMenu = {
     items: [
-      { key: "ar", label: "العربية" },
+      // { key: "ar", label: "العربية" },
       { key: "en", label: "English" },
+      { key: "sp", label: "Spanish" },
+      { key: "fr", label: "French" },
     ],
     onClick: handleLanguageChange,
   };

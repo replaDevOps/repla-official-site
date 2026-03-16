@@ -109,10 +109,21 @@ const Footer = () => {
                     {t("Follow Up")}
                   </Title>
                   <Space size={10} className="social-media">
-                    <Link
-                      to="https://discord.com/users/replacanada"
-                      target="_blank"
-                    >
+                    <Link to="" target="_blank">
+                      <img
+                        src="/assets/icons/fb.webp"
+                        width="13px"
+                        preview={false}
+                      />
+                    </Link>
+                    <Link to="" target="_blank">
+                      <img
+                        src="/assets/icons/lk.webp"
+                        width="13px"
+                        preview={false}
+                      />
+                    </Link>
+                    <Link to="" target="_blank">
                       <img
                         src="/assets/icons/discord.webp"
                         width="13px"
@@ -136,6 +147,27 @@ const Footer = () => {
                         preview={false}
                       />
                     </Link>
+                    <Link to="" target="_blank">
+                      <img
+                        src="/assets/icons/reddit.webp"
+                        width="13px"
+                        preview={false}
+                      />
+                    </Link>
+                    <Link to="" target="_blank">
+                      <img
+                        src="/assets/icons/github.webp"
+                        width="13px"
+                        preview={false}
+                      />
+                    </Link>
+                    <Link to="" target="_blank">
+                      <img
+                        src="/assets/icons/yt.webp"
+                        width="13px"
+                        preview={false}
+                      />
+                    </Link>
                   </Space>
                 </Flex>
               </Space>
@@ -147,13 +179,24 @@ const Footer = () => {
                   <Title className="text-white m-0 head-font fs-18" level={5}>
                     {items.heading}
                   </Title>
-                  <ul className="ul-f m-0">
-                    {items.listdetail.map((list, i) => (
-                      <li key={"menu" + i} style={{ listStyle: "none" }}>
-                        <NavLink to={list.to}>{list.text}</NavLink>
-                      </li>
-                    ))}
-                  </ul>
+                  {items?.heading === "Services" ? (
+                    <ul className="ul-f m-0">
+                      {items.listdetail.map((list, i) => (
+                        <li key={"menu" + i} style={{ listStyle: "none" }}>
+                          {/* <NavLink to={list.to}></NavLink> */}
+                          <Text className="text-white">{list.text}</Text>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <ul className="ul-f m-0">
+                      {items.listdetail.map((list, i) => (
+                        <li key={"menu" + i} style={{ listStyle: "none" }}>
+                          <NavLink to={list.to}>{list.text}</NavLink>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </Space>
               </Col>
             ))}

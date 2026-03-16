@@ -975,3 +975,11 @@ body {
 .rtl-marquee .bordereffect {
   direction: ltr; /* Ensures card content still flows left-to-right */
 }
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-left {
+  text-align: left !important;
+}

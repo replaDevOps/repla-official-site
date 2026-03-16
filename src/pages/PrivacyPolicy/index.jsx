@@ -1,8 +1,8 @@
-import React from 'react';
-import { Breadcrumb } from '../../components';
-import { Card, Flex, Typography } from 'antd';
-import { getPrivacyData } from '../../Data'; // Updated to dynamic function
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { Breadcrumb } from "../../components";
+import { Card, Flex, Typography } from "antd";
+import { getPrivacyData } from "../../Data"; // Updated to dynamic function
+import { useTranslation } from "react-i18next";
 
 const { Title, Text } = Typography;
 
@@ -13,9 +13,9 @@ const PrivacyPolicy = () => {
   return (
     <div className="m-top-80">
       <Breadcrumb
-        title={t('Privacy Policy')}
-        pageName={t('Privacy Policy')}
-        breadcrumb={[{ to: '/', name: t('REPLA Technologies Pvt Ltd') }]}
+        title={t("Privacy Policy")}
+        pageName={t("Privacy Policy")}
+        breadcrumb={[{ to: null, name: t("REPLA Technologies Inc.") }]}
       />
       <div className="pad-common">
         <div className="container">

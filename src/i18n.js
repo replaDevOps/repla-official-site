@@ -1,20 +1,20 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import en from './locales/en/translation.json';
-import ar from './locales/ar/translation.json';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import en from "./locales/en/translation.json";
+import ar from "./locales/ar/translation.json";
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources: {
-      en: { translation: en },
-      ar: { translation: ar }
-    },
-    lng: 'en', // Default language
-    fallbackLng: 'ar',
-    interpolation: {
-      escapeValue: false
-    }
-  });
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: en },
+    ar: { translation: ar },
+    // sp: { translation: sp },
+    // fr: { translation: fr },
+  },
+  lng: "en", // Default language
+  fallbackLng: "fr",
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
-export  {i18n};
+export { i18n };

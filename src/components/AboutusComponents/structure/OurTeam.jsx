@@ -1,15 +1,17 @@
-import React from "react";
-import { Card, Col, Flex, Image, Row, Typography } from "antd";
+import React, { useState } from "react";
+import { Button, Card, Col, Flex, Image, Row, Space, Typography } from "antd";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { DownOutlined, UpOutlined } from "@ant-design/icons";
 
-const { Title, Text } = Typography;
+const { Title, Text, Paragraph } = Typography;
 
 const OurTeam = () => {
   const { t } = useTranslation();
-
+  const [expanded, setExpanded] = useState(null);
   const data = [
-    { img: "team-m-1.jpg", title: t("Tyler Sipel"), subtitle: t("President") },
+    { img: "team-m-1.jpg", title: t("Tyler Siple"), subtitle: t("President") },
     {
       img: "team-f-1.jpg",
       title: t("Maribel Siple"),
@@ -46,7 +48,7 @@ const OurTeam = () => {
                 {t("Our team")}
               </Text>
               <Title level={1} className="head-font fw-700 text-white m-0">
-                {t("Team of Experienced Professionals")}
+                {t("Our Team of Experienced Professionals")}
               </Title>
             </Flex>
           </Col>
@@ -85,6 +87,47 @@ const OurTeam = () => {
                     {member.title}
                   </Title>
                   <Text style={{ color: "#aaa" }}>{member.subtitle}</Text>
+                  <Flex justify="center">
+                    <Button
+                      ghost
+                      className="border0"
+                      onClick={() =>
+                        setExpanded(expanded === index ? null : index)
+                      }
+                    >
+                      {expanded === index ? <UpOutlined /> : <DownOutlined />}
+                    </Button>
+                  </Flex>
+                  {expanded === index && (
+                    <Flex vertical gap={5} align="flex-start" className="mt-2">
+                      <Text className="text-white" strong>
+                        Details:
+                      </Text>
+                      <Paragraph className="text-gray text-left m-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque exercitationem corrupti iure similique.
+                      </Paragraph>
+                      <Space size={10} className="social-media mt-2">
+                        <Link
+                          to="https://www.instagram.com/replacanada/"
+                          target="_blank"
+                        >
+                          <img
+                            src="/assets/icons/inst.webp"
+                            width="13px"
+                            preview={false}
+                          />
+                        </Link>
+                        <Link to="https://x.com/replacanada" target="_blank">
+                          <img
+                            src="/assets/icons/tw.webp"
+                            width="13px"
+                            preview={false}
+                          />
+                        </Link>
+                      </Space>
+                    </Flex>
+                  )}
                 </Card>
               </motion.div>
             </Col>

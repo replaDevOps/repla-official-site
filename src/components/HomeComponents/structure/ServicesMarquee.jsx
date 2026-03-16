@@ -1,20 +1,21 @@
-import React, { useEffect } from 'react';
-import { Button, Card, Col, Flex, Image, Row, Typography } from 'antd';
-import Slider from 'react-slick';
-import { useTranslation } from 'react-i18next';
-import { getServicesData } from '../../../Data';
-import { useSelector } from 'react-redux';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { useEffect } from "react";
+import { Button, Card, Col, Flex, Image, Row, Typography } from "antd";
+import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
+import { getServicesData } from "../../../Data";
+import { useSelector } from "react-redux";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from "react-router-dom";
 
 const { Text, Title } = Typography;
 
 const ServicesMarquee = () => {
   const { t, i18n } = useTranslation();
   const { language } = useSelector((state) => state?.app);
-
+  const navigate = useNavigate();
   useEffect(() => {
-    const lang = localStorage.getItem('lang') || 'en';
+    const lang = localStorage.getItem("lang") || "en";
     i18n.changeLanguage(lang);
     document.body.dir = i18n.dir();
   }, []);
@@ -23,14 +24,14 @@ const ServicesMarquee = () => {
 
   const settings = {
     dots: false,
-    
-  arrows: false,
+
+    arrows: false,
     speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
-    rtl: language === 'ar',
+    rtl: language === "ar",
     autoplay: true,
-    autoplaySpeed:1500,
+    autoplaySpeed: 1500,
     responsive: [
       {
         breakpoint: 1200,
@@ -54,11 +55,11 @@ const ServicesMarquee = () => {
           <Col lg={14} xs={24}>
             <Flex justify="center" vertical align="center" gap={15}>
               <Title level={1} className="head-font fw-700 text-white m-0">
-                {t('Our Services')}
+                {t("Our Services")}
               </Title>
               <Text className="text-white para-font text-center fs-16">
                 {t(
-                  'At Repla, our mission is to provide comprehensive digital solutions, prioritizing user experience, search engine optimization, and cutting-edge technology to drive growth and success for our clients.'
+                  "At Repla, our mission is to provide comprehensive digital solutions, prioritizing user experience, search engine optimization, and cutting-edge technology to drive growth and success for our clients.",
                 )}
               </Text>
             </Flex>
@@ -67,7 +68,7 @@ const ServicesMarquee = () => {
           <Col span={24}>
             <Slider {...settings}>
               {servicesData.map((sdata, index) => (
-                <div key={index} style={{ padding: '0 10px' }}>
+                <div key={index} style={{ padding: "0 10px" }}>
                   <Card className="card-shadow border0 h-100 bg-black mx-2">
                     <Flex vertical gap={10} align="center">
                       <Image
@@ -87,8 +88,14 @@ const ServicesMarquee = () => {
 
           <Col span={24}>
             <Flex justify="center">
-              <Button type="primary" className="metaverse-btn para-font">
-                <span className="metaverse-btn-text">{t('Request Our Services')}</span>
+              <Button
+                type="primary"
+                className="metaverse-btn para-font"
+                onClick={() => navigate("/contactus")}
+              >
+                <span className="metaverse-btn-text">
+                  {t("Request Our Services")}
+                </span>
                 <span className="metaverse-btn-glow"></span>
               </Button>
             </Flex>
