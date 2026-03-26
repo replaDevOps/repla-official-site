@@ -1,12 +1,13 @@
 import React from "react";
 import { Button, Col, Flex, Row, Typography } from "antd";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const { Title } = Typography;
 
 const GeneralNewsLetter = () => {
   const { t } = useTranslation();
-
+  const navigate = useNavigate();
   return (
     <div className="">
       <div className="container">

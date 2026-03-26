@@ -29,15 +29,16 @@
   "Software Development At Repla, we specialize in full-stack development, web design, mobile app development, and digital marketing services to help businesses succeed in the digital world.": "Software Development At Repla, we specialize in full-stack development, web design, mobile app development, and digital marketing services to help businesses succeed in the digital world.",
 
   "Web3 Development": "Web3 Development",
-  "With Repla, businesses can rely on our expertise to create innovative and intuitive websites that ensure product quality and customer satisfaction, resulting in a high conversion rate.": "With Repla, businesses can rely on our expertise to create innovative and intuitive websites that ensure product quality and customer satisfaction, resulting in a high conversion rate.",
+  "With Repla, businesses can leverage our Web3 expertise to build secure, scalable, and user-friendly decentralized applications. We deliver high-quality blockchain solutions that enhance user experience, trust, and business growth.": "With Repla, businesses can leverage our Web3 expertise to build secure, scalable, and user-friendly decentralized applications. We deliver high-quality blockchain solutions that enhance user experience, trust, and business growth.",
 
   "App Development": "App Development",
   "When it comes to mobile app development, we build iOS and Android applications that efficiently complement web solutions.": "When it comes to mobile app development, we build iOS and Android applications that efficiently complement web solutions.",
 
   "Website Development": "Website Development",
+  "With Repla, businesses can rely on our expertise to create innovative and intuitive websites that ensure product quality and customer satisfaction, resulting in a high conversion rate.": "With Repla, businesses can rely on our expertise to create innovative and intuitive websites that ensure product quality and customer satisfaction, resulting in a high conversion rate.",
 
   "Blockchain": "Blockchain",
-  "Repla provides Blockchain development services which includes banking, marketing, industry applications.": "Repla provides Blockchain development services which includes banking, marketing, industry applications.",
+  "Repla provides blockchain development services, which include banking, marketing, and industry applications.": "Repla provides blockchain development services, which include banking, marketing, and industry applications.",
 
   "UI & UX Design": "UI & UX Design",
   "Repla’s innovative approach to UI/UX Design ensures customer satisfaction as they are meant for developing visually attractive, efficient digital interfaces that attracts customers.": "Repla’s innovative approach to UI/UX Design ensures customer satisfaction as they are meant for developing visually attractive, efficient digital interfaces that attracts customers.",
@@ -46,13 +47,22 @@
   "We offer cutting-edge AI services to empower businesses with intelligent solutions. Our AI expertise enables organizations to leverage data-driven insights, automate processes, and enhance decision-making capabilities.": "We offer cutting-edge AI services to empower businesses with intelligent solutions. Our AI expertise enables organizations to leverage data-driven insights, automate processes, and enhance decision-making capabilities.",
 
   "IOT": "IOT",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis magni distinctio hic vero in nisi quae enim aliquid veritatis!": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis magni distinctio hic vero in nisi quae enim aliquid veritatis!",
+  "The Internet of Things (IoT) connects smart devices and sensors that share data over the internet in real time. It enables automation, smarter decisions, and greater efficiency in homes, cities, and industries.": "The Internet of Things (IoT) connects smart devices and sensors that share data over the internet in real time. It enables automation, smarter decisions, and greater efficiency in homes, cities, and industries.",
 
   "Metaverse": "Metaverse",
+  "The metaverse is a persistent and immersive digital world where physical and virtual realities come together. It allows people to work, socialize, and create in ways that were once only possible in science fiction.": "The metaverse is a persistent and immersive digital world where physical and virtual realities come together. It allows people to work, socialize, and create in ways that were once only possible in science fiction.",
+
   "Smart Contract": "Smart Contract",
+  "A smart contract is a self-executing digital agreement where the terms are written in code. It automatically verifies and enforces transactions without the need for intermediaries.": "A smart contract is a self-executing digital agreement where the terms are written in code. It automatically verifies and enforces transactions without the need for intermediaries.",
+
   "NFTs": "NFTs",
+  "NFTs (non-fungible tokens) are unique digital assets stored on a blockchain that verify ownership of specific items. They can represent digital art, collectibles, or even tokenized real-world assets.": "NFTs (non-fungible tokens) are unique digital assets stored on a blockchain that verify ownership of specific items. They can represent digital art, collectibles, or even tokenized real-world assets.",
+
   "Decentralized Finance": "Decentralized Finance",
+  "DeFi (Decentralized Finance) is a blockchain-based financial system that operates without traditional intermediaries like banks. It enables peer-to-peer lending, borrowing, and trading using smart contracts.": "DeFi (Decentralized Finance) is a blockchain-based financial system that operates without traditional intermediaries like banks. It enables peer-to-peer lending, borrowing, and trading using smart contracts.",
+
   "DAO": "DAO",
+  "A DAO (Decentralized Autonomous Organization) is an internet-based organization governed by smart contracts and member voting. Members use tokens to propose and decide on decisions without centralized leadership.": "A DAO (Decentralized Autonomous Organization) is an internet-based organization governed by smart contracts and member voting. Members use tokens to propose and decide on decisions without centralized leadership.",
 
   "Industries we’re serving": "Industries we’re serving",
   "AI / Web3 services customized for your industry": "AI / Web3 services customized for your industry",
@@ -139,7 +149,6 @@
   "We work with innovative organizations to help them accelerate their growth and achieve their goals.": "We work with innovative organizations to help them accelerate their growth and achieve their goals.",
   "Our team": "Our team",
   "Team of Experienced Professionals": "Team of Experienced Professionals",
-  "Tyler Sipel": "Tyler Sipel",
   "President": "President",
   "Mohammed Alwehaibi": "Mohammed Alwehaibi",
   "Vice President": "Vice President",
@@ -225,13 +234,6 @@
   "These Terms and Conditions shall be governed and construed in accordance with the laws of Pakistan, without regard to its conflict of law provisions.": "These Terms and Conditions shall be governed and construed in accordance with the laws of Pakistan, without regard to its conflict of law provisions.",
   "CHANGES TO TERMS": "CHANGES TO TERMS",
   "We reserve the right to modify these Terms and Conditions at any time. By continuing to access or use our services after those revisions become effective, you agree to be bound by the revised terms.": "We reserve the right to modify these Terms and Conditions at any time. By continuing to access or use our services after those revisions become effective, you agree to be bound by the revised terms.",
-
-  "IoT is a vast ecosystem of interconnected sensors and devices that communicate over networks, enabling real-time data collection and automation to drive efficiency in industries and smart homes.": "IoT is a vast ecosystem of interconnected sensors and devices that communicate over networks, enabling real-time data collection and automation to drive efficiency in industries and smart homes.",
-  "The metaverse is a persistent, immersive digital universe where physical and virtual realities converge, enabling people to work, socialize, and create in ways previously confined to science fiction.": "The metaverse is a persistent, immersive digital universe where physical and virtual realities converge, enabling people to work, socialize, and create in ways previously confined to science fiction.",
-  "A smart contract is a self-executing digital agreement with the terms directly written into code, automatically enforcing and verifying transactions without the need for intermediaries.": "A smart contract is a self-executing digital agreement with the terms directly written into code, automatically enforcing and verifying transactions without the need for intermediaries.",
-  "NFTs, or non-fungible tokens, are unique digital assets verified on a blockchain that represent ownership of a specific item—ranging from digital art and collectibles to real-world asset tokenization.": "NFTs, or non-fungible tokens, are unique digital assets verified on a blockchain that represent ownership of a specific item—ranging from digital art and collectibles to real-world asset tokenization.",
-  "DeFi is a blockchain-based financial ecosystem that operates without traditional intermediaries like banks, enabling peer-to-peer lending, borrowing, and trading through smart contracts.": "DeFi is a blockchain-based financial ecosystem that operates without traditional intermediaries like banks, enabling peer-to-peer lending, borrowing, and trading through smart contracts.",
-  "A DAO is an internet-native organization governed by smart contracts and collective voting, where members use tokens to propose and decide on the entity's future without centralized leadership.": "A DAO is an internet-native organization governed by smart contracts and collective voting, where members use tokens to propose and decide on the entity's future without centralized leadership.",
 
   "REPLA Technologies Inc.": "REPLA Technologies Inc.",
   "Tyler Siple": "Tyler Siple",

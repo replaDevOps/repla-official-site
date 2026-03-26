@@ -16,7 +16,7 @@ const Whoweare = () => {
             <div className="div-ab">
               <div className="left-ab">
                 <img
-                  src="/assets/images/ab.webp"
+                  src="/assets/images/office.webp"
                   className="rounded-12 w-100"
                   alt=""
                 />

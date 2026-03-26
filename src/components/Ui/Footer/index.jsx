@@ -108,25 +108,28 @@ const Footer = () => {
                   <Title level={5} className="text-white m-0 head-font fs-18">
                     {t("Follow Up")}
                   </Title>
-                  <Space size={10} className="social-media">
-                    <Link to="" target="_blank">
+                  <Space size={5} className="social-media">
+                    {/* <Link to="" target="_blank">
                       <img
                         src="/assets/icons/fb.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
                     </Link>
                     <Link to="" target="_blank">
                       <img
                         src="/assets/icons/lk.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
-                    </Link>
-                    <Link to="" target="_blank">
+                    </Link> */}
+                    <Link
+                      to="https://discord.com/users/replacanada"
+                      target="_blank"
+                    >
                       <img
                         src="/assets/icons/discord.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
                     </Link>
@@ -136,38 +139,38 @@ const Footer = () => {
                     >
                       <img
                         src="/assets/icons/inst.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
                     </Link>
                     <Link to="https://x.com/replacanada" target="_blank">
                       <img
                         src="/assets/icons/tw.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
                     </Link>
-                    <Link to="" target="_blank">
+                    {/* <Link to="" target="_blank">
                       <img
                         src="/assets/icons/reddit.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
                     </Link>
                     <Link to="" target="_blank">
                       <img
                         src="/assets/icons/github.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
                     </Link>
                     <Link to="" target="_blank">
                       <img
                         src="/assets/icons/yt.webp"
-                        width="13px"
+                        width="12px"
                         preview={false}
                       />
-                    </Link>
+                    </Link> */}
                   </Space>
                 </Flex>
               </Space>
