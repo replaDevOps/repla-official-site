@@ -50,7 +50,7 @@ export const getServicesData = (t) => [
   },
   {
     id: "7",
-    img: "ai.svg",
+    img: "ai-s.webp",
     heading: t("Artificial Intelligence"),
     desc: t(
       "We offer cutting-edge AI services to empower businesses with intelligent solutions. Our AI expertise enables organizations to leverage data-driven insights, automate processes, and enhance decision-making capabilities.",
